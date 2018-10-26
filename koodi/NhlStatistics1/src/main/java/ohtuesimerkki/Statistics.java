@@ -7,11 +7,12 @@ import java.util.List;
 
 public class Statistics {
 
+    private Reader reader;
     private List<Player> players;
 
-    public Statistics() {
-        PlayerReader reader = new PlayerReader("http://nhlstatistics.herokuapp.com/players.txt");
-        players = reader.getPlayers();       
+    public Statistics(Reader reader) {
+        this.reader = reader;
+        this.players = reader.getPlayers();
     }
 
     public Player search(String name) {
