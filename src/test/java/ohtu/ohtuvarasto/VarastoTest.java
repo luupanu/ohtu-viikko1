@@ -98,7 +98,7 @@ public class VarastoTest {
 
     @Test
     public void yliSaldonOttaminenPalauttaaOikeanMaaran() {
-        varasto.lisaaVarastoon(1);
+        varasto.lisaaVarastoon(10);
 
         double saatuMaara = varasto.otaVarastosta(100);
 
