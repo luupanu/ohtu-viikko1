@@ -17,5 +17,5 @@ public class KonsoliIO implements IO {
     public void print(String m) {
         System.out.println(m);
     }
-    
+
 }

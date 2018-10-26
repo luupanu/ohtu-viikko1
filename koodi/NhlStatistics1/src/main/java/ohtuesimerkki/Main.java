@@ -9,12 +9,12 @@ public class Main {
         for (Player player : stats.team("PHI") ) {
             System.out.println( player );
         }
-        
+
         System.out.println("");
-        
+
         System.out.println("Top scorers");
         for (Player player : stats.topScorers(10) ) {
             System.out.println( player );
-        }        
+        }
     }
 }

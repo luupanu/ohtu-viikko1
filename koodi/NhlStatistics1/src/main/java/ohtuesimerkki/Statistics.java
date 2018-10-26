@@ -43,10 +43,10 @@ public class Statistics {
         Iterator<Player> playerIterator = players.iterator();
         
         while (howMany>=0) {
-            topScorers.add( playerIterator.next() );            
+            topScorers.add( playerIterator.next() );
             howMany--;
         }
-        
+
         return topScorers;
     }
 

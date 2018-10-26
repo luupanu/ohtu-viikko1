@@ -13,7 +13,7 @@ public class Player implements Comparable<Player> {
         this.goals = goals;
         this.assists = assists;
     }
-        
+
     public int getAssists() {
         return assists;
     }
