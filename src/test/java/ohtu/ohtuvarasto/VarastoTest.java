@@ -3,18 +3,15 @@ package ohtu.ohtuvarasto;
 import org.junit.*;
 import static org.junit.Assert.*;
 
-import org.junit.After;
-import org.junit.AfterClass;
 import org.junit.Before;
-import org.junit.BeforeClass;
 import org.junit.Test;
 import static org.junit.Assert.*;
 
 public class VarastoTest {
 
-    Varasto varasto;
-    Varasto varasto2;
-    double vertailuTarkkuus = 0.0001;
+    private Varasto varasto;
+    private Varasto varasto2;
+    private double vertailuTarkkuus = 0.0001;
 
     @Before
     public void setUp() {
